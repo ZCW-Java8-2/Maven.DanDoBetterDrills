@@ -72,7 +72,7 @@ public class TestStringUtilities {
         String expected = "llo";
 
         // : When
-        String actual = StringUtilities.getSuffix("Hello");
+        String actual = StringUtilities.getSuffix(input);
 
         // : Then
         assertEquals(expected, actual);
