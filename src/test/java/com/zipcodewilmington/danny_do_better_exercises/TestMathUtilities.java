@@ -14,6 +14,7 @@ import static org.junit.Assert.*;
  */
 
 @RunWith(Suite.class)
+
 @Suite.SuiteClasses({
         TestAddition.class,
         TestSubtraction.class,
